@@ -11,9 +11,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
        
-        int a;
-        
-        for (a = 1; a < 101; a++) {
+        for (int a = 1; a < 101; a++) {
             
             // using '%' to determine multiples of values
             // determine whether 'a' is a multiple of 3 and 5
